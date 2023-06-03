@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+    font-size: 110%;
+    color: #01F9C6; 
+}
+
+a:active {
+    text-decoration: none;
+    color: #333333; 
+}
+
+
+/* BODY CODE */
+
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: left;
+    align-items: center;
+    background: linear-gradient(#2E3C40, #161818);
+}
+
+.nav_bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    list-style-type: none;
+    font-size: 200%;
+    margin: 0px;
+
+    height: 100%;
+    width: 12.5vh;
+    background-color: #161818;
+    /*border-radius: 15px;*/
+
+    border-style: none;
+}
+
+li {
+    margin: 35px 0;
+}
+
+header {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+    position: relative;
+    bottom: 5vh;
+    right: -27.5vw;
+
+    border-style: none;
+}
+
+.signature {
+    color: #767676;
+    text-decoration: none;
+    font-size: 125%;
+    font-style: italic;
+
+    position: relative;
+    left: 6vw;
+}
+
+
+/* PAGE SPECIFIC CODE */
+h1 {
+    position: relative;
+    left: 1vw;
+    bottom: 45vh;
+    color: #fff;
+}
+
+.homeLOGO {
+    position: absolute;
+    bottom: 89%;
+    right: 1%;
+    width: 48px;
+    height: 48px;
+}
+
+img:not(.homeLOGO) {
+    width: 15vh;
+    height: 15vh;
+    border-radius: 10px;
+}
+
+
+/* C++ */
+.w3-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 10vw 10vw;
+
+    position: absolute;
+    bottom: 70vh;
+    right: 70vw;
+}
+
+.w3-text {
+    color: #767676;
+    height: 15vh;
+    width: 30vw;
+
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 3%;
+    padding: 25px;
+}
+
+.doc-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 10vw 10vw;
+
+    position: absolute;
+    bottom: 50vh;
+    right: 70vw;
+}
+
+.doc-text {
+    color: #767676;
+    height: 15vh;
+    width: 30vw;
+
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 3%;
+    padding: 25px;
+}
+
+
+
+/* HTML */
+.mdn-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 10vw 10vw;
+
+    position: absolute;
+    bottom: 50vh;
+    right: 70vw;
+}
+
+.mdn-text {
+    color: #767676;
+    height: 15vh;
+    width: 30vw;
+
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 3%;
+    padding: 25px;
+}
+
+
+
+/* CSS */
+.flaticon-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 10vw 10vw;
+
+    position: absolute;
+    bottom: 30vh;
+    right: 70vw;
+}
+
+.flaticon-text {
+    color: #767676;
+    height: 15vh;
+    width: 30vw;
+
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 3%;
+    padding: 25px;
+}
+
+.ga-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 10vw 10vw;
+
+    position: absolute;
+    bottom: 10vh;
+    right: 70vw;
+}
+
+.ga-text {
+    color: #767676;
+    height: 15vh;
+    width: 30vw;
+
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 3%;
+    padding: 25px;
+}
+
+
+
+/* SQL */
+.broSQL-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 10vw 10vw;
+
+    position: absolute;
+    bottom: 50vh;
+    right: 70vw;
+}
+
+.broSQL-text {
+    color: #767676;
+    height: 15vh;
+    width: 30vw;
+
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 3%;
+    padding: 25px;
+}
+
+
+/* REACT */
+.fS-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 10vw 10vw;
+
+    position: absolute;
+    bottom: 30vh;
+    right: 70vw;
+}
+
+.fS-text {
+    color: #767676;
+    height: 15vh;
+    width: 30vw;
+
+    border-style: solid;
+    border-radius: 3%;
+    border-color: #fff;
+    padding: 25px;
+}
