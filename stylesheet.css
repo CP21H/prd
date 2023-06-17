@@ -69,22 +69,21 @@ header {
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 2px;
-    
-    position: relative;
-    bottom: 5vh;
-    right: -27.5vw;
 
-    border-style: none;
+    display: grid;
+    place-items: center;
+    height: 100vh; 
+    width: 100%;
+    padding-bottom: 5%;
 }
 
 .signature {
     color: #767676;
     text-decoration: none;
-    font-size: 125%;
+    font-size: 35%;
     font-style: italic;
-
-    position: relative;
-    left: 6vw;
+    position: absolute;
+    padding-top: 10vh;
 }
 
 
@@ -131,6 +130,7 @@ img:not(.homeLOGO) {
     border-color: #fff;
     border-radius: 3%;
     padding: 25px;
+    overflow: auto;
 }
 
 .doc-container {
@@ -152,6 +152,7 @@ img:not(.homeLOGO) {
     border-color: #fff;
     border-radius: 3%;
     padding: 25px;
+    overflow: auto;
 }
 
 
@@ -176,6 +177,7 @@ img:not(.homeLOGO) {
     border-color: #fff;
     border-radius: 3%;
     padding: 25px;
+    overflow: auto;
 }
 
 
@@ -200,6 +202,7 @@ img:not(.homeLOGO) {
     border-color: #fff;
     border-radius: 3%;
     padding: 25px;
+    overflow: auto;
 }
 
 .ga-container {
@@ -221,6 +224,7 @@ img:not(.homeLOGO) {
     border-color: #fff;
     border-radius: 3%;
     padding: 25px;
+    overflow: auto;
 }
 
 
@@ -245,6 +249,7 @@ img:not(.homeLOGO) {
     border-color: #fff;
     border-radius: 3%;
     padding: 25px;
+    overflow: auto;
 }
 
 
@@ -268,4 +273,5 @@ img:not(.homeLOGO) {
     border-radius: 3%;
     border-color: #fff;
     padding: 25px;
+    overflow: auto;
 }
